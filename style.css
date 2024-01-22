@@ -263,6 +263,64 @@ a.site-btn:hover {
     box-shadow: 0 3px 35px 0 rgba(0, 0, 0, .014);
 }
 
+.site_boxes_content {
+    margin-bottom: 100px;
+}
+
+.site_boxes_content .box {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 20px 0;
+}
+
+.site_boxes_content .box span.title {
+    display: block;
+    margin-bottom: 35px;
+    color: #222;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.site_boxes_content .box .pic img {
+    display: table;
+    margin: 0 auto;
+    height: 120px;
+    object-fit: cover;
+}
+.site_boxes_content .box .desc h5 {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.site_boxes_content .box .desc p {
+    margin: 15px;
+    font-size: 13px;
+    text-align: justify;
+    color: #777;
+    line-height: 2;
+    height: 52px;
+    overflow: hidden;
+}
+
+.site_boxes_content .box .desc span {
+    font-size: 12px;
+    color: #999;
+}
+
+.site_boxes_content .box .post_item_bx {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+    width: 100%;
+}
+
+.site_boxes_content .box .post_item_bx:last-child {
+    border-bottom: 0;
+}
 
 
 
