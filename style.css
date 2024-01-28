@@ -322,6 +322,87 @@ a.site-btn:hover {
     border-bottom: 0;
 }
 
+.footer_box {
+    background-color: #dcdcdc;
+    background-image: url("img/map-dots.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 25px 0;
+}
+
+.footer_box .footer-menu span.title {
+    display: block;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    color: #8c7777;
+    position: relative;
+}
+
+.footer_box .footer-menu span.title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 3px;
+    width: 5px;
+    height: 1px;
+    background-color: #dcdcdc;
+    z-index: 10;
+}
+
+.footer_box .footer-menu span.title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 1px;
+    background-color: #948383;
+}
+
+.footer_box .footer-menu ul li {
+    margin: 3px 0;
+    line-height: 1.5;
+}
+
+.footer_box .footer-menu ul li a {
+    display: block;
+    padding: 3px 15px 3px 0;
+    color: #777;
+    font-size: 13px;
+    position: relative;
+}
+
+.footer_box .footer-menu ul li a:before {
+    content: "";
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    width: 4px;
+    height: 2px;
+    background-color: #9999;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.footer_box .footer-menu ul li a:hover:before {
+    content: "";
+    position: absolute;
+    bottom: 12px;
+    right: 0;
+    width: 8px;
+    height: 2px;
+    background-color: #9999;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.footer_box .desc_footer {
+    line-height: 2;
+    text-align: justify;
+    font-size: 13px;
+}
+
 
 
 
